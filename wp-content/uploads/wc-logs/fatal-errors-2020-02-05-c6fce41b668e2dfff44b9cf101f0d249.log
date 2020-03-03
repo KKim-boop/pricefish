@@ -1,0 +1,8 @@
+2020-02-05T00:57:39+00:00 CRITICAL Uncaught Exception: DateTimeZone::__construct(): Unknown or bad timezone () in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php:53
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php(53): DateTimeZone->__construct('')
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php(30): WPSEO_Sitemap_Timezone->get_datetime_with_timezone('2019-03-31 18:3...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php(192): WPSEO_Sitemap_Timezone->format_date('2019-03-31 18:3...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php(79): WPSEO_Sitemaps_Renderer->sitemap_index_url(Array)
+#4 /srv/users/serverpilot/apps/pricesfishandchip in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php on line 53
+

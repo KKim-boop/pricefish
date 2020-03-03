@@ -1,0 +1,14 @@
+.product-price-explain {
+    color: gray;
+    font-size: 0.9em;
+}
+
+.dgwt-wcas-pd-addtc a {
+   transform: scale(0.7, 0.7);
+}
+
+.dgwt-wcas-pd-addtc .quantity {
+    min-width: 45% !important;
+    transform: scale(0.8, 0.8);
+}
+

@@ -1,0 +1,48 @@
+.wbu-qty-button {
+    display: inline;
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.wbu-qty-button a {
+    border-bottom: none;
+}
+
+.wbu-quantity {
+    width: 100%;
+}
+
+.wbu-hide {
+    display: none;
+}
+
+.product-name .qty {
+    width: 4em;
+    display: inline;
+}
+
+.product-name .quantity {
+    display: inline;
+    float: right;
+}
+
+.product_price {
+    font-weight: bold;
+}
+
+.product_price::before {
+    content: ' × ';
+}
+
+
+.checkout-qty-title {
+    float: right;
+}
+
+.woocommerce-checkout-review-order-table .qty {
+    max-width: 85px;
+}

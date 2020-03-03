@@ -1,0 +1,19 @@
+2020-02-19T16:04:12+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:231
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(648): WC_Cart_Totals->get_items_from_cart()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(140): WC_Cart_Totals->calculate_item_totals()
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(131): WC_Cart_Totals->calculate()
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1215): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1184): WC_Cart->calculate_totals()
+#5 /srv/user in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 231
+
+2020-02-19T16:48:58+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+

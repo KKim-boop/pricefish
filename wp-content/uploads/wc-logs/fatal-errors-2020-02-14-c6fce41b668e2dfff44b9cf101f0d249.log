@@ -1,0 +1,40 @@
+2020-02-14T07:05:02+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-14T15:51:46+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-14T17:52:56+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-14T23:23:38+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+

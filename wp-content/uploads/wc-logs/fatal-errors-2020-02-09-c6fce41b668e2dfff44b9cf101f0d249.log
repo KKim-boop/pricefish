@@ -1,0 +1,154 @@
+2020-02-09T01:58:21+00:00 CRITICAL Uncaught Exception: DateTimeZone::__construct(): Unknown or bad timezone () in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php:53
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php(53): DateTimeZone->__construct('')
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php(30): WPSEO_Sitemap_Timezone->get_datetime_with_timezone('2019-03-31 18:3...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php(192): WPSEO_Sitemap_Timezone->format_date('2019-03-31 18:3...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php(79): WPSEO_Sitemaps_Renderer->sitemap_index_url(Array)
+#4 /srv/users/serverpilot/apps/pricesfishandchip in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php on line 53
+
+2020-02-09T04:06:00+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T04:06:00+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T04:06:00+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T04:06:18+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T04:06:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T04:06:51+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T04:06:52+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T04:06:52+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T04:06:53+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T04:06:54+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T11:43:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T15:45:27+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T16:00:26+00:00 CRITICAL Uncaught Exception: DateTimeZone::__construct(): Unknown or bad timezone () in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php:53
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php(53): DateTimeZone->__construct('')
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php(30): WPSEO_Sitemap_Timezone->get_datetime_with_timezone('2019-03-31 18:3...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php(192): WPSEO_Sitemap_Timezone->format_date('2019-03-31 18:3...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php(79): WPSEO_Sitemaps_Renderer->sitemap_index_url(Array)
+#4 /srv/users/serverpilot/apps/pricesfishandchip in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php on line 53
+
+2020-02-09T16:55:38+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php:549
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/woocommerce/templates/taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-includes/template-loader.php(74): include('/srv/users/serv...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-blog-header.php(19): require_once('/srv/users/serv...')
+#4 /srv/users/serverpilot/apps/pricesfishandchips/public/index.php(17): require('/srv/users/serv...')
+#5 {main}
+  thrown in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/themes/pizzaro/woocommerce/archive-product.php on line 549
+
+2020-02-09T17:41:23+00:00 CRITICAL Uncaught Exception: DateTimeZone::__construct(): Unknown or bad timezone () in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php:53
+Stack trace:
+#0 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php(53): DateTimeZone->__construct('')
+#1 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php(30): WPSEO_Sitemap_Timezone->get_datetime_with_timezone('2019-03-31 18:3...')
+#2 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php(192): WPSEO_Sitemap_Timezone->format_date('2019-03-31 18:3...')
+#3 /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemaps-renderer.php(79): WPSEO_Sitemaps_Renderer->sitemap_index_url(Array)
+#4 /srv/users/serverpilot/apps/pricesfishandchip in /srv/users/serverpilot/apps/pricesfishandchips/public/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php on line 53
+

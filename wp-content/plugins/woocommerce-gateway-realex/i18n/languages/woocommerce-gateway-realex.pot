@@ -1,0 +1,553 @@
+# Copyright (C) 2017 SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Realex Gateway 1.10.5\n"
+"Report-Msgid-Bugs-To: "
+"https://woocommerce.com/my-account/marketplace-ticket-form/\n"
+"POT-Creation-Date: 2014-06-15 22:41:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: classes/class-wc-gateway-realex-subscriptions.php:198
+msgid "%s0 Subscription Renewal Approved"
+msgstr ""
+
+#: classes/class-wc-gateway-realex-subscriptions.php:232
+msgid "Credit Card Subscription Renewal Payment Approved (Payment Reference: %s) "
+msgstr ""
+
+#: classes/class-wc-gateway-realex-subscriptions.php:246
+msgid "Credit Card Subscription Renewal Payment Failed"
+msgstr ""
+
+#: classes/class-wc-gateway-realex-subscriptions.php:249
+#. translators: Placeholders: %1$s - result, %2$s - result message
+msgid " (Result: %1$s - \"%2$s\")."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:67
+msgid "Realex"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:68
+msgid ""
+"Realex Remote Gateway provides a seamless and secure checkout process for "
+"your customers"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:138
+msgid "Continue"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:156
+msgid "Enable"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:157
+msgid "Enable Realex"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:163
+msgid "Title"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:165
+msgid "Payment method title that the customer will see on your website."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:166
+msgid "Credit Card"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:169
+msgid "Description"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:171
+msgid "Payment method description that the customer will see on your website."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:172
+msgid "Pay securely using your credit card."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:175
+msgid "Test Mode"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:176
+msgid "Enable Test Mode"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:178
+msgid "Place the payment gateway in test mode to work with your test account."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:182
+msgid "Debug Mode"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:183
+msgid "Enable Debug Mode"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:185
+msgid "Output the response from Realex on the payment page for debugging purposes."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:189
+msgid "Submit for Settlement"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:190
+msgid "Submit all transactions for settlement immediately."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:196
+msgid "RealVault"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:197
+msgid "Allow customers to save their credit card data to your vault."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:197
+msgid "Requires Realex RealVault"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:203
+msgid "Checkout Save Card Text"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:205
+msgid "Text buyers see allowing them to save their credit card to your vault."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:209
+msgid "Manage My Cards Text"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:211
+msgid "Text for manage credit cards button during checkout."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:215
+msgid "Card Verification"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:216
+msgid "Require customer to enter credit card verification code"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:221
+msgid "Address Verification Service (AVS)"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:222
+msgid "Perform an AVS check on customers billing addresses"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:227
+msgid "Accepted Cards"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:231
+msgid "Select which card types to accept."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:236
+msgid "Merchant ID"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:238
+msgid "Your Realex merchant id."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:242
+msgid "Shared Secret"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:244
+msgid "The shared secret for your account, provided by Realex."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:248
+msgid "Test Account"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:250
+msgid "Optional test account (if not supplied the default account will be used)"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:254
+msgid "Live Account"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:256
+msgid "Optional live account (if not supplied the default account will be used)"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:260
+msgid "Amex Test Account"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:262
+msgid ""
+"Optional test account for American Express transactions (if not supplied "
+"the main test account will be used)"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:266
+msgid "Amex Live Account"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:268
+msgid ""
+"Optional live account for American Express transactions (if not supplied "
+"the main live account will be used)"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:407
+msgid "TEST MODE ENABLED"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:417
+#. translators: Placeholders: %1$s - credit card type, %2$s - credit card last
+#. 4, %3$s - credit card expiration MM/YY
+msgid "%1$s ending in %2$s (%3$s)"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:424
+msgid "Use Another Credit Card"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:435
+msgid "Credit Card number"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:439
+#: classes/class-wc-gateway-realex.php:942
+msgid "Card Type"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:456
+msgid "Expiration date"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:458
+msgid "Month"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:464
+msgid "Year"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:473
+msgid "Card security code"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:485
+msgid "Issue Number"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:652
+msgid "An error occurred, try an alternate form of payment"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:665
+#: classes/class-wc-realex-3dsecure.php:471
+msgid "Connection error"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:674
+#: classes/class-wc-realex-3dsecure.php:332
+#: classes/class-wc-realex-3dsecure.php:477
+msgid "Error - invalid transaction signature, check your Realex settings."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:704
+#. translators: Placeholders: %1$s - credit card type, %2$s - credit card last
+#. 4, %3$s - credit card expiration MM/YY
+msgid "Credit Card Transaction Approved: %1$s ending in %2$s (%3$s)."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:719
+msgid "AVS post code response: %s"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:722
+msgid "AVS address response: %s"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:755
+#. translators: Placeholders: %1$s - response result, %2$s - failure message
+msgid "Realex Credit Card payment failed (Result: %1$s - \"%2$s\")."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:759
+#: classes/class-wc-realex-3dsecure.php:451
+msgid ""
+"The transaction has been declined by your bank, please contact your bank "
+"for more details, or try an alternative payment method.  Your order has "
+"been recorded, please contact us if you wish to provide payment over the "
+"phone."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:766
+msgid "Internal error, please use an alternate form of payment"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:770
+msgid "Unknown card, please use an alternate form of payment"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:777
+msgid "An error occurred, please try again or try an alternate form of payment"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:813
+msgid "Please select a card type"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:820
+msgid "Card security code is missing"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:825
+msgid "Card security code is invalid (only digits are allowed)"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:830
+msgid "Card security code is invalid (wrong length)"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:839
+msgid "Switch issue number is invalid (only digits are allowed)"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:844
+msgid "Switch issue number is invalid (wrong length)"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:860
+msgid "Card expiration date is invalid"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:870
+msgid "Card number is invalid"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:882
+msgid "Thank you for your order."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:919
+msgid "Saved Credit Cards"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:936
+msgid "You do not have any saved credit cards."
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:941
+msgid "Card Number"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:943
+msgid "Expires"
+msgstr ""
+
+#: classes/class-wc-gateway-realex.php:954
+msgid "Remove"
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:149
+msgid "3DSecure"
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:150
+msgid ""
+"Enable RealMPI Payer Authentication (3D Secure, SecureCode) for Visa, "
+"MasterCard and Switch cards only.  "
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:150
+msgid "Requires that you contact Realex support to enable on your account"
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:156
+msgid "Liability Shift"
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:157
+msgid "Require liability shift"
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:159
+msgid ""
+"Only accept payments when liability shift has occurred (Requires 3DSecure "
+"to be enabled, and not compatible with RealVault or Subscriptions)."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:264
+msgid "No Liability Shift: vaulted payments not compatible with 3D Secure."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:265
+msgid "No Liability Shift: Card Type not compatible with 3D Secure."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:269
+#: classes/class-wc-realex-3dsecure.php:375
+#: classes/class-wc-realex-3dsecure.php:410
+#: classes/class-wc-realex-3dsecure.php:556
+#: classes/class-wc-realex-3dsecure.php:570
+#: classes/class-wc-realex-3dsecure.php:592
+msgid ""
+"The transaction has been declined, please wait and try again or try an "
+"alternative payment method.  Your order has been recorded, please contact "
+"us if you wish to provide payment over the phone."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:303
+#: classes/class-wc-realex-3dsecure.php:323
+msgid "Communication error"
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:358
+msgid "3DSecure authentication failure: incorrect passphrase"
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:362
+msgid ""
+"Order declined due to incorrect authentication passphrase.  Please try "
+"again with the correct authentication, or use a different card or payment "
+"method."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:369
+msgid ""
+"3DSecure enrollment status verification: issuer was having problems with "
+"their system, no shift in chargeback liability."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:404
+msgid "3DSecure invalid response from ACS, no shift in chargeback liability."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:432
+msgid ""
+"3DSecure Verify Signature mismatch, possible fradulent transaction (Result "
+"%s - \"%s\")"
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:435
+msgid "Realex Verify Signature error (Result: %s - \"%s\")."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:522
+msgid "Processing your Payer Authentication Transaction"
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:522
+msgid "Please click Submit to continue the processing of your transaction."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:550
+msgid ""
+"3DSecure enrollment status could not be verified, no shift in chargeback "
+"liability."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:566
+msgid "3DSecure unknown enrollment status: (%d %s)."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:582
+msgid ""
+"3DSecure card scheme directory server unavailable, no shift in chargeback "
+"liability (220)."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:583
+msgid ""
+"3DSecure are not supported for Solo Cards, no shift in chargeback liability "
+"(521)."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:584
+msgid ""
+"Invalid response from 3DSecure Enrollment Server, no shift in chargeback "
+"liability (520)."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:585
+msgid ""
+"3DSecure verify enrollment error, ensure RealMPI is enabled for your "
+"account/currency: (%s - %s)."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:586
+msgid "Realex Verify Enrollment unknown error (Result: %s - \"%s\")."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:631
+msgid "Pay for order"
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:673
+msgid "  No Liability Shift: Card Type not compatible with 3D Secure."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:676
+msgid "  No Liability Shift: vaulted payments not compatible with 3D Secure."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:683
+msgid "  Liability Shift: Full 3D Secure."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:687
+msgid "  Liability Shift: Merchant 3D Secure."
+msgstr ""
+
+#: classes/class-wc-realex-3dsecure.php:691
+msgid "  No Liability Shift: Non 3DSecure transaction."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Realex Gateway"
+msgstr ""
+
+#: woocommerce-gateway-realex.php:168
+#. translators: Placeholders: %1$s - <strong>, %2$s - </strong>, %3$s - <a>,
+#. %4$s - </a>
+msgid ""
+"WooCommerce Realex Payment Gateway: 3DSecure: PHP extension %1$smcrypt%2$s "
+"not detected, 3DSecure will not be active and no liability shift will occur "
+"until you install the %3$smcrypt%4$s PHP extension.  Contact your host or "
+"server administrator to configure and install PHP mcrypt."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woocommerce.com/products/realex-payment-gateway/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds the Realex Remote Gateway to your WooCommerce website. Requires an SSL "
+"certificate."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.woocommerce.com/"
+msgstr ""
